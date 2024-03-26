@@ -7,7 +7,7 @@ cache: node_modules
 install:
   - yarn
 build_script:
-  - yarn start # команда сборки
+  - yarn build # команда сборки
 
 deploy_script: # скрипт развёртывания
   - git config --global credential.helper store
